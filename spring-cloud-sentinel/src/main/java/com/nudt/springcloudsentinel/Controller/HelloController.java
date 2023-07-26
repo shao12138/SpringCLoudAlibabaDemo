@@ -16,4 +16,9 @@ public class HelloController {
     public String blockHandlerHello(BlockException e) {
         return "当前访问人数过多！";
     }
+
+    @GetMapping("/bye")
+    public String bye(){
+        return "Bye~~~";
+    }
 }

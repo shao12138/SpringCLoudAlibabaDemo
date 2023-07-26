@@ -10,9 +10,9 @@ import org.springframework.context.annotation.Configuration;
 import java.util.ArrayList;
 import java.util.List;
 
-@Configuration
+//@Configuration
 public class SentinelConfig {
-    @Bean
+   // @Bean
     public SentinelResourceAspect sentinelResourceAspect(){
         List<FlowRule> rules = new ArrayList<>();
         FlowRule rule = new FlowRule();
